@@ -1,0 +1,102 @@
+
+body{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: fuchsia;
+}
+
+
+.contact_form{
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: white;
+    padding-left: 30px;
+}
+input{
+    background-color: white;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: fuchsia;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+
+}
+textarea{
+    background-color: white;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: fuchsia;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+label{
+    display: block;
+    float: center;
+}
+button{
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: fuchsia;
+    border-color: fuchsia;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+button p{
+    color: white;
+
+}
+span{
+    color: fuchsia;
+}
+.aviso{
+    font-size: 13px;
+    color:black;
+}
+h1{
+    font-size: 38px;
+    text-align: left;
+    padding-bottom: 20px;
+    color: fuchsia;
+}
+h3{
+    font-size: 15px;
+    padding-bottom: 30px;
+    color: black;
+}
+p{
+    font-size: 14px;
+    color: black;
+}
+::-webkit-input-placeholder{
+    color: violet;
+}
+::-webkit-textarea-placeholder{
+    color: violet;
+}
+.formulario input:focus{
+    outline: 0;
+    border: 1px solid greenyellow;
+}
+.formulario textarea:focus{
+    outline: 0;
+    border: 1 px solid greenyellow;
+}
